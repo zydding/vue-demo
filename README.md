@@ -1,6 +1,14 @@
 # vue-demo
 
-#
+# 包含的包
+axios
+echarts
+element-UI
+moment
+qs
+vuex
+less
+sass
 
 ## Project setup
 ```
