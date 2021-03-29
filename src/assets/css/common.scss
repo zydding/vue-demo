@@ -1,0 +1,95 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.error{
+	font-size: 8px;
+	color:red;
+}
+.el-loading-mask{
+    z-index: 3;
+}
+p{
+    margin: 0;
+}
+
+
+.sys-list .u1::-webkit-scrollbar {
+    display: none;
+}
+
+.col ul::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #AAAFB3;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #AAAFB3;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #AAAFB3;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+	padding: 0;
+}
+.row{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.btn.focus, .btn:focus{
+    box-shadow: none;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: auto;
+    flex: auto;
+    flex-grow: inherit;
+    position: relative;
+}
+
+ul,ol{
+    margin: 0;
+}
+
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+
+body,html{
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+}
+
+button:focus{
+    outline: 0;
+}
