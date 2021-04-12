@@ -20,7 +20,7 @@ Axios.defaults.withCredentials = true;
 Axios.interceptors.request.use(
   (config) => {
     if(config.method=="post" || config.method=="get"){
-      config.url = config.url.indexOf("?")>-1 ? config.url + "&_=" + (new Date().getTime()) : config.url + "?_=" + (new Date().getTime());
+      // config.url = config.url.indexOf("?")>-1 ? config.url + "&_=" + (new Date().getTime()) : config.url + "?_=" + (new Date().getTime());
     }
     return config;
 })
